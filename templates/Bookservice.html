@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../static/css/mystyle.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="myrow1 row">
+      <nav class="navbar navbar-expand" data-bs-theme="dark" style="background-color: #4535C1;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Camshoppy</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="register.html">Register</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Rentalservice.html">Rental service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Buycam.html">Buy a Camera</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Buylen.html">Buy a lens</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Bookservice.html">Book camera servicing slot</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-warning " type="submit">Search Cameras</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="myrow2 row">
+      <div class="box col-2">
+        <h6 class="mt-4">Filter By Category</h6>
+        <hr>
+        <a href="">All Products</a><br>
+        <a href="">Camera</a><br>
+        <a href="">Lenses</a><br>
+        <a href="">Accessories</a><br>
+        <a href="">Stores list</a>
+        <hr>
+        <form action="">
+          <div class="col-auto">
+            <label class="col-form-label">Min:</label>
+          </div>
+          <div class="col-auto">
+            <input type="text" class="col-form-lable" name="min">
+          </div>
+          <div class="col-auto">
+            <label class="col-form-label">Max:</label>
+          </div>
+          <div class="col-auto">
+            <input type="text" class="col-form-lable" name="max">
+          </div>
+          <div>
+            <input class="mt-2 btn btn-warning" type="submit" value="Search">
+          </div>
+        </form>
+        <hr>
+        <h6 class="mt-4">Sort By Category</h6>
+        <hr>
+        <a href="">Nikon</a><br>
+        <a href="">Sony</a><br>
+        <a href="">Canon</a><br>
+        <a href="">Fujifilm</a><br>
+        <a href="">Tamron</a><br>
+        <a href="">Sigma</a>
+        <hr>
+      </div>
+      <div class="box col-10">
+        <div class="row">
+          <form action="" class="col-md-4 mx-auto mt-5 shadow rounded p-4">
+              <h3 class="col-md-4">Servicing Appointment</h3>
+              <div class="form-group">
+                  <label for="">Camera Body</label>
+                  <input type="text" class="form-control">
+              </div>
+              <div class="form-group">
+                  <label for="">Lens</label>
+                  <input type="text" class="form-control">
+              </div>
+              <div class="form-group">
+                  <label for="">Mention issue</label>
+                  <input type="number" class="form-control">
+              </div>
+              <div class="form-group">
+                  <label for="">ID</label>
+                  <input type="text" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="">Password</label>
+                <input type="password" class="form-control">
+              </div>
+              <br>
+              &nbsp; &nbsp;
+                Not a user? <a href="register.html">Sign Up</a>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="myrow3 row"></div>
+  </div>
+  <script src="../static/js/bootstrap.min.js"></script>
+</body>
+
+</html>

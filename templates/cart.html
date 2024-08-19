@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/css/mystyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="myrow1 row">
+            <nav class="navbar navbar-expand" data-bs-theme="dark" style="background-color: #4535C1;">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">Camshoppy</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="register.html">Register</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="Rentalservice.html">Rental
+                                    service</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Buycam.html">Buy a Camera</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Buylen.html">Buy a lens</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Bookservice.html">Book camera servicing slot</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-warning " type="submit">Search Cameras</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="myrow2 row">
+            <div class="box col-2">
+                <h6 class="mt-4">Filter By Category</h6>
+                <hr>
+                <a href="">All Products</a><br>
+                <a href="">Camera</a><br>
+                <a href="">Lenses</a><br>
+                <a href="">Accessories</a><br>
+                <a href="">Stores list</a>
+                <hr>
+                <form action="">
+                    <div class="col-auto">
+                        <label class="col-form-label">Min:</label>
+                    </div>
+                    <div class="col-auto">
+                        <input type="text" class="col-form-lable" name="min">
+                    </div>
+                    <div class="col-auto">
+                        <label class="col-form-label">Max:</label>
+                    </div>
+                    <div class="col-auto">
+                        <input type="text" class="col-form-lable" name="max">
+                    </div>
+                    <div>
+                        <input class="mt-2 btn btn-warning" type="submit" value="Search">
+                    </div>
+                </form>
+                <hr>
+                <h6 class="mt-4">Sort By Category</h6>
+                <hr>
+                <a href="">Nikon</a><br>
+                <a href="">Sony</a><br>
+                <a href="">Canon</a><br>
+                <a href="">Fujifilm</a><br>
+                <a href="">Tamron</a><br>
+                <a href="">Sigma</a>
+                <hr>
+            </div>
+            <div class="box col-10">
+                <div class="row">
+                    <div class="box col-9">
+                        <h3 class="bg-info">Products</h3>
+                        <div class="box row m-2">
+                            <div class="box col-6">
+                                <img src="../static/images/Nikonz9.png" alt="" width="100%"
+                                    height="250px">
+                            </div>
+                            <div class="box col-6 p-4">
+                                <h1>Nikon Z9 Body Only</h1>
+                                <p>Nikon Z9 Body Only</p>
+                                <h1>Rs. 700000</h1>
+                                Quantity:
+                                <button class="btn btn-warning">-</button>
+                                <input type="number" id="">
+                                <button class="btn btn-warning">+</button>
+                            </div>
+                            <div class="box col-6">
+                                <img src="../static/images/Nikkor800mm.png" alt="" width="100%"
+                                    height="250px">
+                            </div>
+                            <div class="box col-6 p-4">
+                                <h1>Nikkor 800mm</h1>
+                                <p>Nikkot 800mm f/6.3</p>
+                                <h1>Rs. 700000</h1>
+                                Quantity:
+                                <button class="btn btn-warning">-</button>
+                                <input type="number" id="">
+                                <button class="btn btn-warning">+</button>
+                            </div>
+                            <div class="box col-6">
+                                <img src="../static/images/rent.png" alt="" width="100%"
+                                    height="250px">
+                            </div>
+                            <div class="box col-6 p-4">
+                                <h1>Rental</h1>
+                                <p>Nikon z9 with 800mm f/6.3</p>
+                                <h1>Rs. 15000/day</h1>
+                                Quantity:
+                                <button class="btn btn-warning">-</button>
+                                <input type="number" id="">
+                                <button class="btn btn-warning">+</button>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="box col-3">
+                        <h3 class="bg-info">Summary</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="myrow3 row">
+            <div class="box col-4">
+                <i class="bi bi-geo-alt-fill">Location</i><br>
+                Lorem ipsum dolor sit amet consecteturadipisicing elit. Maxime nulla dolor distinctio atque, mollitia
+                cum neque. Fugit aut dicta blanditiis
+                nostrum minima aspernatur consequuntur repudiandae, possimus quas illo hic magni.
+            </div>
+            <div class="box col-4">
+                Contact Us: <br>
+                <i class="bi bi-telephone"></i>9923897788 <br>
+                <i class="bi bi-envelope"></i>xyz@gmail.com
+            </div>
+            <div class="box col-4">
+                <a href=""><i class="bi bi-linkedin" style="font-size: 20px;"></i></a><br>
+                <a href=""><i class="bi bi-facebook" style="font-size: 20px"></i></a><br>
+                <a href=""><i class="bi bi-instagram" style="font-size: 20px;"></i></a><br>
+                <a href=""><i class="bi bi-twitter" style="font-size: 20px;"></i></a> <br>
+            </div>
+        </div>
+    </div>
+    <script src="../static/js/bootstrap.min.js"></script>
+</body>
+
+</html>
